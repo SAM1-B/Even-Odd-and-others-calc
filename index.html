@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    
+</head>
+<body class="body p">
+    <div class="w-100 bg-gradient shadow  py-3 px-5  justify-content-around header">
+      <h3 class="text-white  fw-bolder">YOU ARE WELCOME ON THIS PLATFORM </h3>
+      <div class="btnMusic ">
+      <button class="btn btn-outline-warning" id="backMusic">BACK</button>
+      <button class="btn btn-warning" id="playMusic">PLAY SONGS</button>
+      <button class="btn btn-outline-warning" id="forwardMusic">FORWARD</button>
+      </div>
+    </div>
+<div class="container px-4" >
+
+  <div class=" useToFlex">
+    <!-- CENTER BOX -->
+    <div class="box1">
+      <div id="box" class="w-sm-75 bg-gradient shadow py-5 px-5 over2 rounded">
+        <p class="text-center text-danger-emphasis py-2 px-2 w-75 mx-auto bg-warning-subtle rounded-2"> Check if a number is <b>Even</b> or <b>Odd</b></p><br>
+    
+        <input type="number" name="" id="getNumber" class="form-control btn-outline-info">
+        <button onclick="show()" class="btn btn btn-warning w-100 mt-3 "> Check</button>
+    </div>
+    </div>
+    
+   <div class="col-md-2 box3">
+    <p  id="display" class="text-center text-white   mt-5 fs-1 fw-bold"></p>
+   </div>
+
+    <!-- /////////////////////////////////////// -->
+    
+    <!-- SECOND BOX -->
+    <div class="box2">
+          <!-- CENTER BOX -->
+      <div id="box" class="w-sm-75  bg-gradient shadow py-5 px-5 over2 rounded">
+          <p class="text-center text-danger-emphasis text-white bg-warning-subtle rounded-2 w-75 mx-auto py-2 px-2" style="font-size: 13px;"> Check if a number is divisible by <b>3,5</b> and <b>3&5</b></p>
+      <br>
+          <input type="number" name="" id="getNumber2" class="form-control btn-outline-info">
+          <button onclick="check3()" class="btn btn-warning w-100 mt-3 "> Check</button>
+      </div>
+     </div>
+   </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
